@@ -72,6 +72,48 @@
     line-height: ms(1);
     text-align: left;
 
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 48px;
+      height: 48px;
+      transform: translateY(-50%);
+      z-index: 6;
+      opacity: 0.8;
+      background-color: $color-brand-secondary;
+      @include transition-fast;
+    }
+
+    &:after {
+      width: calc(100% + 20px);
+      content: "";
+      height: 140%;
+      background-color: $color-brand-white;
+      box-shadow: 0 5px 20px 0 rgba($color-brand-primary, 0.07);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%) translateX(-10px);
+      z-index: 1;
+      opacity: 0;
+      visibility: hidden;
+      border-radius: 4px;
+      @include transition-fast;
+    }
+
+    &:hover {
+      &:after {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      &:before {
+        opacity: 0;
+      }
+    }
+
   }
 
   .avatar {
@@ -84,19 +126,26 @@
     margin: 0;
     width: rem(48);
     height: rem(48);
-    border: rem(2) solid $color-brand-primary;
+    //border: rem(2) solid $color-brand-primary;
 
-    background-color: #fff;
+    background-color: rgba($color-brand-secondary, 0.6);
+    mix-blend-mode: multiply;
 
     // transform: rotate(-5deg);
-    @include transition-fast();
+    @include transition-fast;
 
   }
 
   a {
 
     display: block;
+    color: $color-grey-40!important;
+    background-image: linear-gradient(transparent calc(100% - 1px),$color-grey-20 0);
+    background-size: 0% 100%;
 
+    &:hover {
+      background-size: 100% 100%;
+    }
   }
 
   .tix-field {
@@ -104,11 +153,13 @@
     display: inline-block;
 
     margin: 0;
-    margin-right: rem(8);
+    margin-right: rem(12);
 
     font-size: ms(0, 14px);
     line-height: ms(2);
     vertical-align: middle;
+    position: relative;
+    z-index: 102;
 
   }
 
@@ -130,7 +181,7 @@
 
   li:hover .avatar {
 
-    transform: scale(1.1);
+    //transform: scale(1.1);
 
   }
 
@@ -160,7 +211,7 @@
 
       opacity: .5;
 
-      content: "";
+      //content: "";
 
     }
 
