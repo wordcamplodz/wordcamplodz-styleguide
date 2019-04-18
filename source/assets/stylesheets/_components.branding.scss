@@ -58,7 +58,7 @@
     background: none!important;
     display: block;
     color: $color-brand-white;
-    @include transition-fast;
+    @include transition-slow;
 
     &:hover,
     &:focus,

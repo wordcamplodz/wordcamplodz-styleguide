@@ -27,7 +27,7 @@
   font-size: 0; /* Hides the default "Primary menu" label */
   line-height: 24px;
 
-  font-weight: $bold;
+  font-weight: $bolder;
   text-align: center;
   letter-spacing: .05em;
   color: $color-link;
@@ -111,6 +111,7 @@
 .main-navigation {
 
   position: relative;
+  background-color: $color-brand-tertiary;
 
   &:before {
 
@@ -119,8 +120,9 @@
     left: 0;
     right: 0;
 
-    height: rem(2);
-    background-color: $color-link;
+    height: rem(1);
+    background-color: $color-brand-white;
+    opacity: 0.2;
 
     content: "";
 
@@ -157,7 +159,7 @@
 
   @include breakpoint(to-small) {
 
-    border-top: 1px solid rgba(255,255,255,.2);
+    //border-top: 1px solid rgba(255,255,255,.2);
 
     display: none;
 
@@ -179,9 +181,10 @@
   display: block;
 
   font-family: $font-headline;
-  font-size: ms(0);
-  font-weight: $bold;
+  font-size: ms(-1)!important;
+  font-weight: $bolder;
   text-align: left;
+  border-top: none!important;
 
   @include breakpoint(small) {
 
@@ -198,10 +201,11 @@
 
 .menu-item a {
 
-  display: block;
-  color: $color-link;
-  padding: $unit-xs $unit-s;
-
+  display: block!important;
+  background-image: none!important;
+  color: $color-brand-white;
+  //padding: $unit-xs $unit-s;
+  padding: $unit-s $unit-s!important;
   text-decoration: none;
   transition: all .1s ease;
 
@@ -210,8 +214,8 @@
   &:focus,
   &.focus {
 
-    color: $color-text-strong;
-    background-color: $color-link-hover;
+    color: $color-brand-white!important;
+    background-color: $color-brand-secondary;
 
   }
 
@@ -231,8 +235,8 @@
 
 .current-menu-item > a {
 
-  color: $color-text-strong;
-  background-color: $color-link;
+  color: $color-brand-white!important;
+  background-color: $color-brand-secondary;
 
 }
 
@@ -259,10 +263,10 @@
       &:after {
 
         position: relative;
-        top: -(rem(2));
+        top: -(rem(1));
 
         display: inline-block;
-        border: rem(6) solid transparent;
+        border: rem(4) solid transparent;
         margin-left: $unit-xs;
 
         vertical-align: middle;
@@ -286,8 +290,8 @@
     &:hover > a,
     &.focus > a {
 
-      color: $color-text-strong;
-      background-color: $color-link;
+      color: $color-brand-white;
+      background-color: $color-brand-secondary;
 
       &:after {
 
@@ -321,8 +325,20 @@
   .menu-item {
 
     text-transform: none;
-    font-weight: $regular;
+    font-weight: $bolder;
     font-family: $font-body;
+    font-size: ms(-1)!important;
+
+    a {
+      &:hover,
+      &:focus,
+      &.focus {
+
+        background-color: $color-brand-white!important;
+        color: $color-brand-primary!important;
+
+      }
+    }
 
   }
 
@@ -330,18 +346,16 @@
 
     a {
 
-      padding-left: rem(40);
-
-      background-image: $image-bullet-color;
       background-repeat: no-repeat;
       background-size: 12px;
       background-position: $unit-s 50%;
+      color: $color-brand-white;
 
       &:hover,
       &:focus,
       &.focus {
 
-        background-image: $image-bullet-dark;
+        background-color: $color-brand-primary!important;
 
       }
 
@@ -364,7 +378,7 @@
 
       width: 100%;
       margin: 0;
-      border-top: 1px solid rgba(255,255,255,.2);
+      //border-top: 1px solid rgba(255,255,255,.2);
 
       text-align: left;
 
@@ -374,7 +388,7 @@
 
       padding: rem(10) $unit-s;
 
-      color: $color-text;
+      color: $color-brand-white;
 
     }
 

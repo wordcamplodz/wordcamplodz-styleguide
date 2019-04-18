@@ -65,7 +65,7 @@
     margin-bottom: $unit-default;
     height: auto; // Override
     min-height: rem(48); // Image size
-    padding-left: rem(64);
+    padding-left: rem(65);
     padding-right: rem(8);
 
     font-size: ms(-1);
@@ -82,6 +82,7 @@
       transform: translateY(-50%);
       z-index: 6;
       opacity: 0.8;
+      border-radius: 50%;
       background-color: $color-brand-secondary;
       @include transition-fast;
     }
@@ -126,6 +127,7 @@
     margin: 0;
     width: rem(48);
     height: rem(48);
+    border-radius: 50%;
     //border: rem(2) solid $color-brand-primary;
 
     background-color: rgba($color-brand-secondary, 0.6);

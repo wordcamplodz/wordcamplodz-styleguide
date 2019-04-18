@@ -48,7 +48,7 @@
 article.comment-body {
 
   position: relative;
-  padding-left: rem(52);
+  padding-left: rem(65);
 
   footer {
 
@@ -77,7 +77,7 @@ article.comment-body {
     // top: rem(4);
     top: 0;
     left: 0;
-
+    border-radius: 50%;
     width: rem(42);
 
   }

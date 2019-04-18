@@ -16,7 +16,7 @@
  * <footer id="colophon" class="site-footer" role="contentinfo"> ... </footer>
  */
 
-#colophon {
+ #colophon {
 
   max-width: $container-max-width;
   margin-left: auto;
@@ -39,23 +39,23 @@
 
   position: relative;
 
-  display: block;
-  width: rem(60);
-  height: rem(60);
+  display: block!important;
+  width: rem(60)!important;
+  height: rem(60)!important;
   margin: 0 auto;
   margin-bottom: $unit-m;
 
   color: #fff;
-  text-indent: -9999px;
+  text-indent: -9999px!important;
 
-  background-image: url('https://europe.wordcamp.org/2016/files/2015/11/wordpress-footer-logo.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: $color-link;
-  background-size: 40px;
-  //border-radius: 50%;
+  background-image: url('https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/wordpress_logo.png')!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-color: $color-brand-primary;
+  background-size: 50px!important;
+  border-radius: 50%!important;
 
-  transition: all .1s ease;
+  @include transition-fast;
 
   &:after {
 
@@ -69,10 +69,10 @@
     width: rem(30);
     height: rem(100);
 
-    background: $color-link;
-    transition: all .1s ease;
+    background: $color-brand-primary;
+    transition: all .3s ease;
 
-    content: "";
+    //content: "";
 
   }
 
@@ -80,13 +80,12 @@
   &:focus,
   &:active {
 
-    background-color: $color-link-hover;
-
-    &:after {
-
-      background-color: $color-link-hover;
-    }
-
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-color: $color-brand-primary;
+    background-size: 50px!important;
+    border-radius: 50%!important;
+    
   }
 
 }
