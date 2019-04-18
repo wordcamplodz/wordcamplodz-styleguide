@@ -21,7 +21,8 @@ blockquote {
 blockquote {
 
   padding: 2em;
-  background-color: $color-grey-10;
+  background-color: $color-brand-white;
+  box-shadow: 0 10px 20px 0 rgba($color-brand-primary, 0.1);
 
   p {
 
@@ -33,6 +34,10 @@ blockquote {
 
     margin-bottom: 0;
 
+  }
+
+  cite {
+    font-size: $unit-s;
   }
 
 }

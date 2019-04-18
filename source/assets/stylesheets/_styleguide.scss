@@ -112,7 +112,7 @@ $styleguide-border-radius-small: 5px;
 
     @include font-size(16);
     line-height: 1.5;
-    font-family: $helvetica;
+    font-family: $nunitosans;
     font-weight: $bold;
     color: #444;
     text-transform: none;
@@ -154,7 +154,7 @@ $styleguide-border-radius-small: 5px;
     @include font-size(16);
     line-height: 1.5;
     font-weight: $bold;
-    font-family: $helvetica;
+    font-family: $nunitosans;
     color: rgba(0,0,0,.9);
 
     border-left: 4px solid $styleguide-color-main;
@@ -194,7 +194,7 @@ $styleguide-border-radius-small: 5px;
     @include font-size(14);
     line-height: 1.5;
     font-weight: $bold;
-    font-family: $helvetica;
+    font-family: $nunitosans;
     color: rgba(0,0,0,.9);
 
   }
@@ -206,7 +206,7 @@ $styleguide-border-radius-small: 5px;
     @include font-size(14);
     line-height: 1.5;
     font-weight: $regular;
-    font-family: $helvetica;
+    font-family: $nunitosans;
     color: rgba(0,0,0,.7);
 
   }
@@ -270,7 +270,7 @@ $styleguide-border-radius-small: 5px;
   > p,
   > ul li {
 
-    font-family: $helvetica;
+    font-family: $nunitosans;
     @include font-size(16);
     line-height: 1.5;
     color: #444;

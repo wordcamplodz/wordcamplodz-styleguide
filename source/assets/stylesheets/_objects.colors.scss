@@ -13,7 +13,7 @@
 
   @include font-size(18);
   line-height: 1.5;
-  font-family: $helvetica;
+  font-family: $nunitosans;
   text-transform: none;
 
 }
@@ -69,7 +69,7 @@
 
     @include font-size(16);
     line-height: 1.5;
-    font-family: $helvetica;
+    font-family: $nunitosans;
 
   }
 
@@ -101,7 +101,7 @@
 .cc__title {
 
   font-weight: $bold;
-  font-family: $helvetica;
+  font-family: $nunitosans;
 
 }
 .cc__variable {

@@ -29,3 +29,12 @@ $monospace: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
 /// @type List
 
 $verdana: "Verdana", "Geneva", sans-serif;
+
+/// Nunito Sans font stack.
+///
+/// @type List
+
+/// Google Font - Nunito Sans
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900&subset=latin-ext');
+
+$nunitosans: 'Nunito Sans', sans-serif;

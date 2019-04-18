@@ -218,6 +218,7 @@ $color-brand-primary:             #0E1344;
 $color-brand-secondary:           #EF233C;
 $color-brand-tertiary:            #0E1344;
 $color-brand-quaternary:          rgba(#0E1344, 0.55);
+$color-brand-white:               #ffffff;
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
@@ -229,7 +230,7 @@ $color-brand-quaternary:          rgba(#0E1344, 0.55);
  * Text
  */
 
-$color-text:                      rgba($color-brand-primary, 0.55);
+$color-text:                      rgba($color-brand-primary, 0.65);
 $color-text-weak:                 rgba($color-brand-primary, 0.55);
 $color-text-strong:               rgba($color-brand-primary, 0.75);
 $color-text-invert:               rgba(255,255,255,.75);
@@ -248,7 +249,7 @@ $color-text-strong-invert:        rgba(255,255,255,.9);
  * Links
  */
 
-$color-link:                 $color-brand-primary;
+$color-link:                 $color-brand-secondary;
 $color-link-hover:           shade($color-link, 10%);
 $color-link-focus:           shade($color-link, 20%);
 $color-link-visited:         tint($color-link, 20%);
@@ -318,10 +319,10 @@ $color-border-strong:             $color-grey-30;
  * Messages
  */
 
-$color-message-default:           #eeeeee;
-$color-message-success:           #00a664;
-$color-message-warning:           #ffcb05;
-$color-message-danger:            #f04e3e;
+$color-message-default:           #E8E9EB;
+$color-message-success:           #9FC63B;
+$color-message-warning:           #E1AB32;
+$color-message-danger:            #EF233C;
 
 @include cc($color-message-default, 'color-message-default');
 @include cc($color-message-success, 'color-message-success');
@@ -335,7 +336,7 @@ $color-message-danger:            #f04e3e;
 
 $color-input-regular:             $color-border-strong;
 $color-input-focus:               $color-brand-primary;
-$color-input-success:             #00a664;
+$color-input-success:             #9FC63B;
 $color-input-error:               $color-message-danger;
 $color-input-required:            mix($color-message-danger, #000, 75%);
 $color-input-checkbox:            $color-border-strong;
@@ -366,7 +367,7 @@ $color-button-secondary:          $color-brand-secondary;
 $color-button-secondary-hover:    shade($color-button-secondary, 10%);
 $color-button-invert:             #fff;
 $color-button-invert-hover:       mix($color-button-invert, #000, 90%);
-$color-button-inactive:           #eeeeee;
+$color-button-inactive:           #E8E9EB;
 
 
 /*
@@ -384,6 +385,6 @@ $color-text-paragraph:            $color-text;
  * Explicit colors
  */
 
-$color-explicit-red:              #ed1c24;
-$color-explicit-green:            #00a651;
+$color-explicit-red:              #EF233C;
+$color-explicit-green:            #9FC63B;
 $color-explicit-blue:             #034ea2;

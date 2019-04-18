@@ -14,23 +14,30 @@
 //
 // Style guide: 4.links
 
-a {
+a:not(.button) {
 
   color: $color-link;
   text-decoration: none;
-  @include transition-fast();
+  @include transition-normal();
+  display: inline;
+  background-image: linear-gradient(transparent calc(100% - 1px), rgba($color-link, 1) 0px);
+  background-repeat: repeat-y;
+  background-size: 0% 100%;
+  background-position: 0 100%;
 
   &:hover {
-
+    
     color: $color-link-hover;
-    text-decoration: underline;
+    text-decoration: none; // old underline
+    background-size: 100% 100%!important;
 
   }
 
   &:focus {
 
     color: $color-link-hover;
-    text-decoration: underline;
+    text-decoration: none; // old underline
+    background-size: 100% 100%!important;
 
   }
 
