@@ -307,7 +307,7 @@ $color-grey-100:                  tint($color-brand-tertiary, 0%);  // Dark
  */
 
 $color-border-weak:               $color-grey-10;
-$color-border-normal:             $color-grey-20;
+$color-border-normal:             $color-grey-10;
 $color-border-strong:             $color-grey-30;
 
 @include cc($color-border-weak, 'color-border-weak');

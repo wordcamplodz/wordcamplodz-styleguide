@@ -36,6 +36,8 @@
 
   a {
 
+    color: $color-brand-primary;
+
     &:hover,
     &:focus,
     &:active {
@@ -54,7 +56,7 @@
 
   a {
 
-    color: $color-link-alt;
+    color: $color-brand-primary;
 
     &:hover,
     &:focus,
@@ -100,6 +102,18 @@
 
       content: "";
 
+    }
+
+  }
+
+  .tags-links {
+
+    a {
+      color: $color-brand-primary;
+
+      &:hover, &:focus {
+        color: $color-link-alt-hover;
+      }
     }
 
   }

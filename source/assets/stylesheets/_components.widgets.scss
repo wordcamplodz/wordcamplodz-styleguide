@@ -12,8 +12,11 @@
 
 .widget-title {
 
-  font-size: ms(1);
+  font-size: ms(2);
   line-height: ms(1);
+  position: relative;
+  z-index: 6;
+  color: $color-brand-white;
 
 }
 
@@ -35,10 +38,12 @@
   > * {
 
     position: relative;
+    z-index: 6;
 
   }
 
   &:before {
+    content: "";
 
     position: absolute;
     // z-index: -1;
@@ -47,10 +52,21 @@
     left: -1000px;
     right: -1000px;
 
-    background-color: $color-brand-quaternary;
+    background: url(https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/hero-large.jpg) center center / cover !important;
 
+  }
+
+  &:after {
     content: "";
 
+    position: absolute;
+    // z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: -1000px;
+    right: -1000px;
+
+    background-color:  rgba($color-brand-primary, 0.8);
   }
 
 }
@@ -64,7 +80,9 @@
 
 .widget_text {
 
-  background-color: $color-grey-10;
+  //background-color: $color-grey-10;
+  position: relative;
+  z-index: 6;
 
   &:before {
 

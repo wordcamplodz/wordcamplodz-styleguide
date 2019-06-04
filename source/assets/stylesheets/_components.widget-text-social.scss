@@ -35,6 +35,8 @@
     display: block;
     margin-top: $unit-s;
 
+    color: $color-brand-white;
+
     text-align: center;
 
     @include breakpoint(extra-small) {
@@ -66,12 +68,13 @@
 
     display: block;
     padding: $unit-s $unit-m;
-    padding-top: rem(68);
+    padding-top: rem(90);
 
 
-    color: rgba(0,0,0,.8);
+    color: $color-brand-white;
     border-radius: $border-radius-small;
     text-decoration: none;
+    background: none !important;
 
     &:empty {
 
@@ -84,16 +87,16 @@
       position: absolute;
       top: 0;
       left: 50%;
-      transform: translateX(-50%)  rotate(45deg);
+      transform: translateX(-50%);
 
       display: block;
-      width: rem(40);
-      height: rem(40);
-      border: 4px solid $color-brand-primary;
+      width: rem(66);
+      height: rem(66);
+      border: 2px solid $color-brand-white;
 
       content :"";
 
-      border-radius: $border-radius-small;
+      border-radius: 50%;
       transition: all .1s ease;
 
     }
@@ -101,16 +104,17 @@
     &:after {
 
       position: absolute;
-      top: 0;
+      top: 2px;
       left: 50%;
       transform: translateX(-50%);
 
-      width: rem(48);
-      height: rem(48);
+      width: rem(66);
+      height: rem(66);
 
       background-position: 50% 50%;
       background-repeat: no-repeat;
-      background-size: 36px;
+      background-size: auto 25px;
+      z-index: 8;
 
       content :"";
 
@@ -121,13 +125,14 @@
     &:active {
 
       text-decoration: none;
-      color: $color-text-strong-invert;
+      color: $color-brand-white;
       background-color: $color-brand-primary;
 
       &:before {
 
-        background-color: tint($color-brand-primary, 60%);
-        border-color: tint($color-brand-primary, 60%);
+        //background-color: tint($color-brand-primary, 60%);
+        border-color: $color-brand-secondary;
+        background-color: $color-brand-secondary;
 
       }
 
@@ -137,19 +142,19 @@
 
   .social-twitter a:after {
 
-    background-image: url('https://2017.europe.wordcamp.org/files/2016/11/icon-twitter.png');
+    background-image: url('https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/twitter-logo.png');
 
   }
 
   .social-facebook a:after {
 
-    background-image: url('https://2017.europe.wordcamp.org/files/2016/11/icon-facebook.png');
+    background-image: url('https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/facebook-logo.png');
 
   }
 
   .social-instagram a:after {
 
-    background-image: url('https://2017.europe.wordcamp.org/files/2017/06/icon-instagram.png');
+    background-image: url('https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/instagram.png');
 
   }
 

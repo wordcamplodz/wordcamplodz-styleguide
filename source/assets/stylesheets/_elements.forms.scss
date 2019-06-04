@@ -43,7 +43,7 @@ fieldset {
   /* Box-model */
   display: block;
   width: 100%;
-  padding: rem(7) rem(16);
+  padding: rem(10) rem(16);
   margin: 0;
   border: 1px solid $color-input-regular;
 
@@ -76,7 +76,7 @@ fieldset {
   outline: none;
   color: $color-text-strong;
   border-color: $color-input-focus;
-  box-shadow: 0 0 0 .125em $color-input-focus;
+  box-shadow: inset 0 0 0 .125em $color-input-focus;
 
 }
 
@@ -138,9 +138,9 @@ select {
 
   /* Box-model */
   display: block;
-  height: rem(40);
+  height: rem(53);
   width: 100%;
-  padding: rem(7) rem(16);
+  padding: rem(10) rem(16);
   border: 1px solid $color-input-regular;
 
   /* Typography */

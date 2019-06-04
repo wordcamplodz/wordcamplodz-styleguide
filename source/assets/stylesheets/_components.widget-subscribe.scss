@@ -14,20 +14,30 @@
   text-align: center;
 
   &:before {
-
-    background-color: $color-brand-tertiary;
-
+    z-index: 1;
   }
 
-  .widget-title {
+  &:after {
+    z-index: 2;
+  }
 
-    color: $color-brand-secondary;
+
+  .widget-title {
+    position: relative;
+    z-index: 6;
+    color: $color-brand-white;
+    font-size: ms(2);
+  }
+
+  form {
+    position: relative;
+    z-index: 6;
   }
 
   p {
 
     margin: 0;
-    color: rgba(255,255,255,.8);
+    color: rgba($color-brand-white,.8);
 
   }
 
@@ -40,16 +50,18 @@
   input[type="submit"] {
 
     width: 100%;
-    color: $color-text;
+    color: $color-brand-white;
     text-transform: uppercase;
-    background-color: $color-button-primary;
+    height: rem(53);
+    background-color: $color-button-secondary;
+    transition: all 0.1s ease;
 
     &:hover,
     &:focus,
     &:active {
 
-      color: $color-text-strong;
-      background-color: $color-button-primary-hover;
+      color: $color-brand-white;
+      background-color: $color-button-primary;
 
     }
 
