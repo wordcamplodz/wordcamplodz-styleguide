@@ -24,7 +24,7 @@ WordCamp header. Read more about [colors](section-1.html#kssref-1-colors) and [f
 <header id="masthead" class="site-header" role="banner">
   <div class="site-branding">
     <p class="site-title"><a href="#" rel="home">WordCamp Łódź 2019</a></p>
-    <p class="site-description">Łódź, Polska – 22-24 listopad 2019 | #wclodz</p>
+    <p class="site-description">Łódź, Polska – 22-24 listopad 2019 | #wcldz</p>
   </div><!-- .site-branding -->
   <!-- #site-navigation -->
 </header><!-- #masthead -->
