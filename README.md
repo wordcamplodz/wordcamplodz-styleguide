@@ -1,4 +1,6 @@
-﻿# WordCamp Style Guide
+﻿![alt text](https://github.com/wordcamplodz/wordcamplodz-styleguide/blob/master/screenshot-style-guide.png)
+
+# WordCamp Style Guide
 
 ## CampSite 2017 theme and a style guide
 [WordCamp Europe 2017](https://2017.europe.wordcamp.org/) design team ported the [Underscores](https://underscores.me/) theme and made it available for [all WordCamps](https://make.wordpress.org/community/2017/05/08/the-new-wordcamp-base-theme-campsite-2017/) as a base theme. The theme was improved with additional [widget areas](https://lucijanblagonic.github.io/wceu-2018/styleguide/section-6.html#kssref-6-widget-areas) and a “Day of” template —based on the feedback received from the WordPress community.
