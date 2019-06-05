@@ -23,6 +23,7 @@
 
   &:before {
     background-image: linear-gradient(171.18deg, rgba($color-brand-primary, 0.7), rgba($color-brand-primary, 1) 90.96%)!important;
+    background-color: transparent !important;
   }
 
 }
@@ -32,13 +33,13 @@
   position: relative; // Add position: relative to keep the light beams from leaking out
   overflow: hidden; // Add overflow: hidden to keep light beams from leaking out
 
-  @include container-padding(3.5);
+  @include container-padding(1.5);
 
   text-align: center;
 
   .home & {
 
-    @include container-padding(3.5);
+    @include container-padding(1.5);
 
   }
 
@@ -47,7 +48,7 @@
 .site-title {
   margin: 0;
 
-  font-size: ms(3);
+  font-size: ms(4);
   line-height: 1;
   font-family: $font-headline;
   font-weight: $bold;
