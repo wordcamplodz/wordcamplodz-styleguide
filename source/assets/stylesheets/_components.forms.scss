@@ -1,2 +1,12 @@
 /* =Forms
 ===================================================== */
+.contact-form label.checkbox,
+.contact-form label.radio {
+    font-size: ms(-1);
+    line-height: ms(1);
+}
+
+.contact-form label {
+    font-size: ms(0);
+    line-height: ms(1);
+}
