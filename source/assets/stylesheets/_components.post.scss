@@ -25,11 +25,29 @@
 
   @include clearfix();
 
+  h1, h2, h3, h4, h5, h6 {
+    margin: $unit-l 0 $unit-m 0;
+  }
+
+  h2 {
+    font-size:$unit-l;
+    color: $color-brand-primary !important;
+  }
+
+  h3 {
+    font-size: $unit-m;
+    color: $color-brand-primary !important;
+  }
+
+  h4 {
+    font-size: $unit-s;
+    color: $color-brand-primary !important;
+  }
 }
 
 .entry-title {
 
-  font-size: ms(2);
+  font-size: ms(3.5);
   line-height: ms(1);
 
   margin-bottom: $unit-default;

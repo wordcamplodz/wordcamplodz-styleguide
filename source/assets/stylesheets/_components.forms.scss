@@ -1,10 +1,11 @@
 /* =Forms
 ===================================================== */
 .contact-form {
-    padding: $unit-l;
+    padding: $unit-m; 
+    border: 1px solid $color-border-normal;
+    border-radius: $border-radius-small;
     margin-top: $unit-l;
     margin-bottom: $unit-l;
-    background-color: rgba($color-brand-primary, 0.03);
 }
 
 .contact-form label.checkbox,
