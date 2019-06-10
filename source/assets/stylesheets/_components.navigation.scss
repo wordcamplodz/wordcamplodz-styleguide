@@ -321,6 +321,7 @@
 .sub-menu {
 
   @include list-reset();
+  box-shadow: 0 $unit-xs $unit-l 0 rgba($color-brand-primary, 0.4);
 
   .menu-item {
 
