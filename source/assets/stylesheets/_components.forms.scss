@@ -19,7 +19,7 @@
 }
 
 input:not([type]), input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea {
-    width: 98% !important;
-    max-width: 98% !important;
+    width: 100% !important;
+    max-width: 100% !important;
     margin: 0 auto 16px auto !important;
 }
