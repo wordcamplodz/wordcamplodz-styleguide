@@ -89,9 +89,11 @@
 
   margin-bottom: $unit-default;
   margin-top: $unit-default;
+  font-size: ms(-1);
+  line-height: ms(1);
 
-  @include font-size(16);
-  line-height: em(24,16);
+  //@include font-size(16);
+  //line-height: em(24,16);
   color: $color-text-weak;
 
   > :after {
