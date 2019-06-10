@@ -87,6 +87,7 @@
 .entry-footer {
 
   margin-bottom: $unit-default;
+  margin-top: $unit-default;
 
   @include font-size(16);
   line-height: em(24,16);
