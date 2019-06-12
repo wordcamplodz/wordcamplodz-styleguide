@@ -1,0 +1,13 @@
+// Gutenberg Blocks 
+.wp-block-table {
+
+    &.alignfull {
+        @include breakpoint(extra-large) {
+
+            width: calc(100% + 400px);
+            transform: translateY(-200px);
+        
+        }
+    }
+    
+}
