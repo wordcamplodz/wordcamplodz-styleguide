@@ -47,6 +47,30 @@
     }
 }
 
+.page {
+    h1 {
+
+        &.page-title {
+            font-size: $unit-xl;
+            padding-bottom: $unit-l;
+            margin-bottom: $unit-l;
+            position: relative;
+
+            &:before {
+                content: "";
+                width: 100px;
+                height: 3px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transform: translateX(-30px);
+                background-color: $color-brand-secondary; 
+            }
+        }
+    
+    }
+}
+
 .contact-form label.checkbox {
     display: flex !important;
     flex-direction: row;
