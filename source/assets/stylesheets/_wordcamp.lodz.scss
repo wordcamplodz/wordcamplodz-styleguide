@@ -5,6 +5,12 @@
 
         td {
             font-size: $unit-s2;
+
+            strong {
+                display: block;
+                font-size: $unit-s;
+                color: $color-brand-secondary;
+            }
         }
 
         @include breakpoint(extra-large) {
