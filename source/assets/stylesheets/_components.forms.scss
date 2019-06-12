@@ -10,13 +10,15 @@
 
 .contact-form label.checkbox,
 .contact-form label.radio {
-    font-size: ms(-1);
+    font-size: $unit-s2 !important;
     line-height: ms(1);
 }
 
 .contact-form label {
-    font-size: ms(0);
+    font-size: $unit-s;
     line-height: ms(1);
+    margin-bottom: $unit-s;
+    margin-top: $unit-m;
 
     &.checkbox {
         font-size: $unit-s2 !important;
