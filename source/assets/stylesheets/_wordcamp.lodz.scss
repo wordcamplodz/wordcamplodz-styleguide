@@ -88,3 +88,28 @@
         width: 20%; 
     }
 }
+
+.wp-block-file {
+    margin-bottom: rem(20);
+    padding: rem(15);
+    border: rem(1) solid rgba($color-brand-primary, 0.1);
+
+    a {
+        color: $color-brand-primary;
+
+        &:hover, &:focus {
+            color: $color-brand-secondary;
+        }
+    }
+
+    .wp-block-file__button {
+        padding: $unit-s $unit-s2;
+        border-radius: 2px;
+        background-color: $color-brand-secondary;
+        color: $color-brand-white;
+
+        &:hover, &:focus {
+            background-color: $color-brand-primary;
+        }
+    }
+}
