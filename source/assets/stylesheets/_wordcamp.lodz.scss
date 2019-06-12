@@ -51,10 +51,13 @@
     display: flex !important;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 
     input {
         width: 13%;
         margin-right: 10px;
+        margin-bottom: 0;
     }
 
     span {
