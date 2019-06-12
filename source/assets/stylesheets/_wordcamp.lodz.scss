@@ -47,8 +47,8 @@
     }
 }
 
-label.grunion-field-label.checkbox {
-    display: flex;
+.contact-form label.checkbox {
+    display: flex !important;
     flex-direction: row;
     flex-wrap: nowrap;
 
