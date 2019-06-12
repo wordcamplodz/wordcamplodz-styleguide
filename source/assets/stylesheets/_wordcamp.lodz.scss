@@ -22,3 +22,14 @@
     }
 
 }
+
+.category {
+    h1 {
+
+        &.page-title {
+            font-size: $unit-m;
+        }
+    
+    }
+}
+
