@@ -12,7 +12,7 @@
 .wcorg-organizers {
 
   padding-bottom: $unit-default;
-  margin-bottom: $unit-default;
+  margin-bottom: $unit-xl;
   border-bottom: 6px double $color-border-weak;
 
 }
@@ -30,9 +30,10 @@
 
   h2 {
 
-    margin-bottom: $unit-s;
+    margin-bottom: $unit-m;
     font-size: ms(1);
     font-family: $font-headline;
+    color: $color-brand-secondary;
 
   }
 
