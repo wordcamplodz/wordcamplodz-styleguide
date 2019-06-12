@@ -6,11 +6,11 @@
         td {
             font-size: $unit-s2;
         }
-        
+
         @include breakpoint(extra-large) {
 
             width: calc(100% + 400px);
-            transform: translateY(-200px);
+            transform: translateX(-200px);
         
         }
     }
