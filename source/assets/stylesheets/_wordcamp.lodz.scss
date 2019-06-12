@@ -53,7 +53,11 @@
     flex-wrap: nowrap;
 
     input {
-        width: $unit-l;
+        width: 13%;
         margin-right: 10px;
+    }
+
+    span {
+        width: 20%; 
     }
 }
