@@ -101,6 +101,8 @@
 
     a {
         color: $color-brand-primary;
+        font-size: $unit-s2;
+        font-weight: 700;
 
         &:hover, &:focus {
             color: $color-brand-secondary;
@@ -112,6 +114,7 @@
         border-radius: 2px;
         background-color: $color-brand-secondary;
         color: $color-brand-white;
+        font-weight: 700;
 
         &:hover, &:focus {
             background-color: $color-brand-primary;
