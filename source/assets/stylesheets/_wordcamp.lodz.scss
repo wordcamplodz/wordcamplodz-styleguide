@@ -93,6 +93,11 @@
     margin-bottom: rem(20);
     padding: rem(15);
     border: rem(1) solid rgba($color-brand-primary, 0.1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 
     a {
         color: $color-brand-primary;
@@ -103,7 +108,7 @@
     }
 
     .wp-block-file__button {
-        padding: $unit-s $unit-s2;
+        padding: $unit-s2 $unit-s2;
         border-radius: 2px;
         background-color: $color-brand-secondary;
         color: $color-brand-white;
