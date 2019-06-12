@@ -47,3 +47,13 @@
     }
 }
 
+label.grunion-field-label.checkbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    input {
+        width: 14px;
+        margin-right: 10px;
+    }
+}
