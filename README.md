@@ -99,6 +99,9 @@ This is a styleguide for WordCamp Lodz. In addition to changes in colors, fonts 
 * [WordCamp Europe 2018](https://lucijanblagonic.github.io/wceu-2018/styleguide)
 * [WordCamp Łódź 2019](https://wordcamplodz.github.io/wordcamplodz-styleguide/styleguide/)
 
+# WordCamp Łódź 2019 Styleguide Preview
+[https://wordcamplodz.github.io/wordcamplodz-styleguide/styleguide/](https://wordcamplodz.github.io/wordcamplodz-styleguide/styleguide/)
+
 ## Help
 The author of style for WordCamp Łódź 2019 is Agnieszka Palmowska [https://github.com/Agressiva86](https://github.com/Agressiva86)
 
