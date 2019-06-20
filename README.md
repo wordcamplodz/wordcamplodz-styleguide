@@ -23,21 +23,21 @@ Make sure you have node.js installed. If you have, download the wordcamp-style-g
 
 Install gulp by using the command:
 
-    npm install gulp
+npm install gulp
 
 Once gulp is installed, continue installing all gulp related packages with:
 
-    npm install
+npm install
 
 You are done. If you want to test that everything is working properly, run:
 
-    gulp
+gulp
 
 The process for on-the-fly compiling should be active now. You will see the live preview of the style guide in your browser and each time one of the files is changed (SCSS, HTML…) the style guide will be updated.
 
 If you want to build the style guide once, without the browser-sync live preview, run:
 
-    gulp build
+gulp build
 
 ### Windows
 
@@ -93,7 +93,12 @@ If you need more help, check the Help screen on Remote CSS page on your WordCamp
 * Adding images
 
 ## Style guides examples
- * [WordCamp Europe 2017](https://lucijanblagonic.github.io/wceu-2017/styleguide)
- * [WordCamp Zagreb 2017](https://lucijanblagonic.github.io/2017.zagreb.wordcamp.org/styleguide/)
- * [WordCamp Europe 2018](https://lucijanblagonic.github.io/wceu-2018/styleguide)
- * [WordCamp Łódź 2019](https://wordcamplodz.github.io/wordcamplodz-styleguide/styleguide/)
+* [WordCamp Europe 2017](https://lucijanblagonic.github.io/wceu-2017/styleguide)
+* [WordCamp Zagreb 2017](https://lucijanblagonic.github.io/2017.zagreb.wordcamp.org/styleguide/)
+* [WordCamp Europe 2018](https://lucijanblagonic.github.io/wceu-2018/styleguide)
+* [WordCamp Łódź 2019](https://wordcamplodz.github.io/wordcamplodz-styleguide/styleguide/)
+
+## Help
+The author of style for WordCamp Łódź 2019 is Agnieszka Palmowska [https://github.com/Agressiva86](https://github.com/Agressiva86)
+If you need help with a styleguide for your WordCamp - give me a sign, I will be happy to help! I am able to help with UI and SCSS in these files. I recommend using Figma to create design.
+My email address: a.palmowska{at}freshpixels.pl
