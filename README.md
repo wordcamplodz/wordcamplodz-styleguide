@@ -87,7 +87,8 @@ If you are hosting your style guide repository on GitHub, you can use the power 
 If you need more help, check the Help screen on Remote CSS page on your WordCamp website admin.
 
 ## Making changes to your style guide
-[Description]
+This is a styleguide for WordCamp Lodz. In addition to changes in colors, fonts and intervals, the 'wordcamp.lodz.scss' file also has additional values for CSS.
+
 * Changing variables (colors)
 * Adding or removing components
 * Adding images
@@ -100,5 +101,7 @@ If you need more help, check the Help screen on Remote CSS page on your WordCamp
 
 ## Help
 The author of style for WordCamp Łódź 2019 is Agnieszka Palmowska [https://github.com/Agressiva86](https://github.com/Agressiva86)
+
 If you need help with a styleguide for your WordCamp - give me a sign, I will be happy to help! I am able to help with UI and SCSS in these files. I recommend using Figma to create design.
+
 My email address: a.palmowska{at}freshpixels.pl
