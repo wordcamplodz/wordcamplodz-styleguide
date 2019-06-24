@@ -11,6 +11,10 @@
   &.widget_blog_subscription {
     background-color: $color-brand-secondary !important;
     box-shadow: none !important;
+
+    &:before {
+      background-color: $color-brand-secondary !important;
+    }
   }
 
 }
