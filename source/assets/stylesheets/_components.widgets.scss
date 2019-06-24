@@ -16,7 +16,7 @@
   line-height: ms(1);
   position: relative;
   z-index: 6;
-  color: $color-brand-primary;
+  color: $color-brand-secondary;
 
 }
 
@@ -52,7 +52,7 @@
     left: -1000px;
     right: -1000px;
 
-    background-color: rgba($color-brand-primary, 0.05);
+    background-color: rgba($color-brand-primary, 0.03);
 
     //background: url(https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/hero-large.jpg) center center / cover !important;
 
