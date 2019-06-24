@@ -15,7 +15,18 @@
 
   margin-bottom: $unit-default;
   padding-bottom: $unit-default;
-  border-bottom: 6px double $color-border-weak;
+  border-bottom: 6px solid rgba($color-brand-primary, 0.05);
+  position: relative;
+
+  &:after {
+    content: "";
+    bottom: -1px;
+    left: 0;
+    width: rem(100);
+    height: rem(3);
+    background-color: $color-brand-secondary;
+    z-index: 3;
+  }
 
 }
 
