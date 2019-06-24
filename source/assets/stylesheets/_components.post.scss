@@ -14,18 +14,19 @@
   @include clearfix();
 
   margin-bottom: $unit-default;
-  padding-bottom: $unit-default;
+  //padding-bottom: $unit-default;
   border-bottom: 1px solid rgba($color-brand-primary, 0.05);
   position: relative;
 
   &:after {
     content: "";
-    bottom: -1px;
+    bottom: 0px;
     left: 0;
     width: rem(100);
     height: rem(3);
     background-color: $color-brand-secondary;
     z-index: 3;
+    transform: translateY(2px);
   }
 
 }
