@@ -187,6 +187,8 @@
   border-top: none!important;
 
   &.background {
+    background-color: $color-brand-secondary !important;
+    
     a {
       background-color: $color-brand-secondary !important;
     }
