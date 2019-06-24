@@ -148,3 +148,24 @@
         }
     }
 }
+
+.sponsor-level {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .sponsor-level-title {
+        width: 100%;
+    }
+
+    .sponsor-logo {
+        width: 50%;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+}
