@@ -130,13 +130,14 @@
     padding: rem(30);
     margin-bottom: rem(30);
     border: rem(1) solid rgba($color-brand-primary, 0.1);
-    
+
     img {
         margin-bottom: rem(30);
     }
 
     h2 {
         color: $color-brand-secondary !important;
+        font-size: rem(25);
     }
 
     .wcorg-sponsor-description {
