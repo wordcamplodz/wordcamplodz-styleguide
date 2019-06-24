@@ -19,6 +19,8 @@
     input[type=email],
     button[type=submit] {
       margin: rem(20) 0 rem(10) 0 !important;
+      border: none !important;
+      box-shadow: none !important;
     }
 
     button[type=submit] {
