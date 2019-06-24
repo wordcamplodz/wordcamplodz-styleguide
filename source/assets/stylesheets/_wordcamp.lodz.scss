@@ -129,3 +129,9 @@
 .wcorg-sponsors>div h2 {
     background-color: $color-brand-secondary;
 }
+
+.wcorg-sponsor-description {
+    p, ul, li {
+        display: block;
+    }
+}
