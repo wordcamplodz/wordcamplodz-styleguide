@@ -21,13 +21,17 @@
       margin: rem(20) 0 rem(10) 0 !important;
       border: none !important;
       box-shadow: none !important;
+      height: rem(62) !important
     }
 
     button[type=submit] {
       width: 100%;
-      height: rem(53);
       background: $color-brand-primary;
       color: $color-brand-white;
+
+      &:hover, &:focus {
+        background: darken($color-brand-primary, 10%);
+      }
     }
   }
 
