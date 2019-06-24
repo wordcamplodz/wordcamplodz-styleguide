@@ -131,9 +131,9 @@
 }
 
 .wcorg-sponsor-description {
-    text-align: left;
+    text-align: left !important;
     p, ul, li {
-        display: block;
-        text-align: left;
+        display: block !important;
+        text-align: left !important;
     }
 }
