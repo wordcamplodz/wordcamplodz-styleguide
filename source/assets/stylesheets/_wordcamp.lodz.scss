@@ -147,10 +147,6 @@
             text-align: left !important;
         }
     }
-
-    .sponsor-level-title {
-        margin: rem(30) rem(0) !important;
-    }
 }
 
 .sponsor-level {
@@ -171,5 +167,9 @@
         img {
             margin: 0 auto;
         }
+    }
+
+    .sponsor-level-title {
+        margin: rem(30) rem(0) !important;
     }
 }
