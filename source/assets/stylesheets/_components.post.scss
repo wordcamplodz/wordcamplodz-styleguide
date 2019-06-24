@@ -13,7 +13,7 @@
 
   @include clearfix();
 
-  margin-bottom: $unit-default;
+  margin-bottom: $unit-default * 2;
   //padding-bottom: $unit-default;
   border-bottom: 1px solid rgba($color-brand-primary, 0.05);
   position: relative;
