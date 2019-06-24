@@ -15,6 +15,18 @@
     &:before {
       background-color: $color-brand-secondary !important;
     }
+
+    input[type=email],
+    input[type=submit] {
+      margin: 0 0 rem(10) 0 !important;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      height: rem(53);
+      background: $color-brand-primary;
+      color: $color-brand-white;
+    }
   }
 
 }
