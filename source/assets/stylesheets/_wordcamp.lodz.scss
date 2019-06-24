@@ -160,9 +160,22 @@
     .sponsor-level-title {
         width: 100%;
         margin: rem(30) rem(0) !important;
-        font-size: rem(16);
-        font-weight: 400 !important;
+        font-size: rem(19);
+        font-weight: 700 !important;
         text-transform: uppercase;
+        position: relative;
+
+        &:after {
+            content: "";
+            width: rem(200);
+            height: rem(5);
+            background: $color-brand-secondary;
+            z-index: -1;
+            position: absolute;
+            left: 50%;
+            bottom: 100%;
+            transform: translateX(-50%);
+        }
     }
 
     .sponsor-logo {
