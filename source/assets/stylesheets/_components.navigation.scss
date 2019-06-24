@@ -186,6 +186,12 @@
   text-align: left;
   border-top: none!important;
 
+  &.background {
+    a {
+      background-color: $color-brand-secondary !important;
+    }
+  }
+
   @include breakpoint(small) {
 
     margin: 0 rem(1);
