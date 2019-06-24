@@ -8,6 +8,11 @@
   position: relative;
   max-width: $container-max-width;
 
+  &.widget_blog_subscription {
+    background-color: $color-brand-secondary !important;
+    box-shadow: none !important;
+  }
+
 }
 
 .widget-title {
