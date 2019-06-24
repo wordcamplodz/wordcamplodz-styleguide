@@ -166,13 +166,13 @@
 
         &:after {
             content: "";
-            width: rem(600);
-            height: rem(12);
+            width: rem(500);
+            height: rem(20);
             background: rgba($color-brand-primary, 0.04);
             z-index: -1;
             position: absolute;
             left: 50%;
-            bottom: -2px;
+            bottom: -5px;
             transform: translateX(-50%);
         }
     }
