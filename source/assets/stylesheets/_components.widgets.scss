@@ -16,7 +16,7 @@
   line-height: ms(1);
   position: relative;
   z-index: 6;
-  color: $color-brand-white;
+  color: $color-brand-primary;
 
 }
 
@@ -52,12 +52,14 @@
     left: -1000px;
     right: -1000px;
 
-    background: url(https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/hero-large.jpg) center center / cover !important;
+    background-color: rgba($color-brand-primary, 0.05);
+
+    //background: url(https://raw.githubusercontent.com/wordcamplodz/wordcamplodz-graphics/master/hero-large.jpg) center center / cover !important;
 
   }
 
   &:after {
-    content: "";
+    //content: "";
 
     position: absolute;
     // z-index: -1;
