@@ -159,18 +159,19 @@
 
     .sponsor-level-title {
         width: 100%;
+        margin: rem(30) rem(0) !important;
+        font-size: rem(16);
+        font-weight: 400 !important;
+        text-transform: uppercase;
     }
 
     .sponsor-logo {
         width: 50%;
         background: none !important;
+        padding: rem(10) rem(20);
 
         img {
             margin: 0 auto;
         }
-    }
-
-    .sponsor-level-title {
-        margin: rem(30) rem(0) !important;
     }
 }
