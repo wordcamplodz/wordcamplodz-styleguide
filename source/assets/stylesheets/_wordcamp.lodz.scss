@@ -198,19 +198,7 @@
 
     }
 
-    @include breakpoint(medium) {
-
-        width: 100% !important;
-        margin: 0 !important;
-
-        input {
-            margin: 10px 0 0 0 !important;
-            width: 100% !important;
-        }
-
-    }
-
-    @include breakpoint(small) {
+    @include breakpoint(to-small) {
 
         width: 100% !important;
         margin: 0 !important;
@@ -232,19 +220,7 @@
 
     }
 
-    @include breakpoint(medium) {
-
-        width: 100% !important;
-        margin: 0 !important;
-
-        input {
-            margin: 10px 0 0 0 !important;
-            width: 100% !important;
-        }
-
-    }
-
-    @include breakpoint(small) {
+    @include breakpoint(to-small) {
 
         width: 100% !important;
         margin: 0 !important;
