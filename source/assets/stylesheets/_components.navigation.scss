@@ -182,7 +182,7 @@
 
   font-family: $font-headline;
   font-weight: $bolder;
-  font-size: 17px;
+  font-size: 16px;
   text-align: left;
   border-top: none!important;
 
@@ -199,7 +199,7 @@
     margin: 0 rem(1);
     display: inline-block;
 
-    font-size: 17px !important;
+    font-size: 16px !important;
     line-height: em(24,18);
     text-align: center;
 
@@ -219,13 +219,13 @@
 
   @include breakpoint(medium) {
 
-    font-size: 17px !important;
+    font-size: 16px !important;
 
   }
 
   @include breakpoint(small) {
 
-    font-size: 17px !important;
+    font-size: 16px !important;
 
   }
 
@@ -348,7 +348,7 @@
     text-transform: none;
     font-weight: $bolder;
     font-family: $font-body;
-    font-size: 17px !important;
+    font-size: 16px !important;
 
     a {
       &:hover,
@@ -372,7 +372,7 @@
       background-position: $unit-s 50%;
       color: $color-brand-white;
       padding-left: $unit-l !important;
-      font-size: 17px !important;
+      font-size: 16px !important;
 
       &:hover,
       &:focus,
@@ -410,7 +410,7 @@
     a {
 
       padding: rem(10) $unit-s;
-      font-size: 17px !important;
+      font-size: 16px !important;
       color: $color-brand-white;
       padding-left: $unit-l !important;
 
@@ -424,7 +424,7 @@
 
       padding-left: $unit-m;
       padding-right: $unit-m;
-      font-size: 17px !important;
+      font-size: 16px !important;
 
     }
 
