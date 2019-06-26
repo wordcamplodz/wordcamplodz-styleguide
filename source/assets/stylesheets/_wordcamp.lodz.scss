@@ -189,3 +189,21 @@
         }
     }
 }
+
+#subscribe-submit {
+    @include breakpoint(large) {
+
+        width: 75% !important;
+        margin: 0 !important;
+
+    }
+}
+
+#subscribe-submit {
+    @include breakpoint(large) {
+
+        width: 25% !important;
+        margin: 0 !important;
+        
+    }
+}

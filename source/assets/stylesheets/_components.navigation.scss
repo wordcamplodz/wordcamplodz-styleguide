@@ -199,7 +199,7 @@
     margin: 0 rem(1);
     display: inline-block;
 
-    @include font-size(18);
+    font-size: 17px !important;
     line-height: em(24,18);
     text-align: center;
 
@@ -216,6 +216,18 @@
   padding: $unit-s $unit-s!important;
   text-decoration: none;
   transition: all .1s ease;
+
+  @include breakpoint(medium) {
+
+    font-size: 17px !important;
+
+  }
+
+  @include breakpoint(small) {
+
+    font-size: 17px !important;
+
+  }
 
   &:hover,
   &:active,
