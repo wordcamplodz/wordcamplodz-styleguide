@@ -197,6 +197,28 @@
         margin: 0 !important;
 
     }
+
+    @include breakpoint(medium) {
+
+        width: 100% !important;
+        margin: 0 !important;
+
+        input {
+            margin: 10px 0 0 0 !important;
+        }
+
+    }
+
+    @include breakpoint(small) {
+
+        width: 100% !important;
+        margin: 0 !important;
+
+        input {
+            margin: 10px 0 0 0 !important;
+        }
+
+    }
 }
 
 #subscribe-submit {
@@ -206,5 +228,26 @@
         margin: 0 !important;
         transform: translateY(4px);
 
+    }
+
+    @include breakpoint(medium) {
+
+        width: 100% !important;
+        margin: 0 !important;
+
+        input {
+            margin: 10px 0 0 0 !important;
+        }
+
+    }
+
+    @include breakpoint(small) {
+
+        width: 100% !important;
+        margin: 0 !important;
+
+        input {
+            margin: 10px 0 0 0 !important;
+        }
     }
 }
