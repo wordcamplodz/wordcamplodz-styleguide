@@ -237,8 +237,11 @@
 
     ul {
         li {
+            font-size: 14px !important;
+            
             a {
                 color: $color-brand-primary !important;
+                font-size: 14px !important;
 
                 &:hover, &:focus {
                     color: $color-brand-white !important;
