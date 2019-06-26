@@ -190,7 +190,7 @@
     }
 }
 
-#subscribe-submit {
+#subscribe-email {
     @include breakpoint(large) {
 
         width: 75% !important;
@@ -225,7 +225,7 @@
         width: 100% !important;
         margin: 0 !important;
 
-        input {
+        input, button {
             margin: 10px 0 0 0 !important;
             width: 100% !important;
         }
