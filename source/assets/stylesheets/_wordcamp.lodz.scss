@@ -231,3 +231,19 @@
         }
     }
 }
+
+.widget_nav_menu {
+    padding: 0!important;
+
+    ul {
+        li {
+            a {
+                color: $color-brand-primary !important;
+
+                &:hover, &:focus {
+                    color: $color-brand-white !important;
+                }
+            }
+        }
+    }
+}
