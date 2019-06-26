@@ -336,6 +336,7 @@
     text-transform: none;
     font-weight: $bolder;
     font-family: $font-body;
+    font-size: 17px !important;
 
     a {
       &:hover,
@@ -359,6 +360,7 @@
       background-position: $unit-s 50%;
       color: $color-brand-white;
       padding-left: $unit-l !important;
+      font-size: 17px !important;
 
       &:hover,
       &:focus,
@@ -396,7 +398,7 @@
     a {
 
       padding: rem(10) $unit-s;
-      font-size: rem(16) !important;
+      font-size: 17px !important;
       color: $color-brand-white;
       padding-left: $unit-l !important;
 
@@ -410,7 +412,7 @@
 
       padding-left: $unit-m;
       padding-right: $unit-m;
-      font-size: rem(16) !important;
+      font-size: 17px !important;
 
     }
 
