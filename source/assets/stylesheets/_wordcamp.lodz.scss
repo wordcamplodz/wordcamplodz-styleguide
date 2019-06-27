@@ -238,7 +238,7 @@
     ul {
         li {
             font-size: 14px !important;
-            
+
             a {
                 color: $color-brand-primary !important;
                 font-size: 14px !important;
@@ -249,5 +249,17 @@
                 }
             }
         }
+    }
+}
+
+.wp-block-button__link {
+    color: $color-brand-white !important;
+    border-radius: 0 !important;
+    font-weight: 800;
+    background: $color-brand-secondary !important;
+    background-image: none !important;
+
+    &:hover, &:focus {
+        background: $color-brand-primary !important;
     }
 }
