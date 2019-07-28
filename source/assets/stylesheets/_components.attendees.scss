@@ -65,7 +65,7 @@
     margin-bottom: $unit-default;
     height: auto; // Override
     min-height: rem(48); // Image size
-    padding-left: rem(85);
+    padding-left: rem(90);
     padding-right: rem(10);
     padding-top: rem(20);
     padding-bottom: rem(20);
@@ -81,7 +81,7 @@
     align-items: center;
 
     &:before {
-      content: "";
+      //content: "";
       position: absolute;
       top: 50%;
       left: 20px;
@@ -118,6 +118,10 @@
         opacity: 1;
       }
 
+      .avatar {
+        filter: grayscale(0);
+      }
+
       &:before {
         opacity: 0;
       }
@@ -137,6 +141,7 @@
     width: rem(48);
     height: rem(48);
     border-radius: 50%;
+    filter: grayscale(1);
     //border: rem(2) solid $color-brand-primary;
 
     background-color: rgba($color-brand-secondary, 0.6);
