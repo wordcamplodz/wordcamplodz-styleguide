@@ -66,11 +66,19 @@
     height: auto; // Override
     min-height: rem(48); // Image size
     padding-left: rem(65);
-    padding-right: rem(8);
+    padding-right: rem(10);
+    padding-top: rem(10);
+    padding-bottom: rem(10);
 
     font-size: ms(-1);
     line-height: ms(1);
     text-align: left;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 
     &:before {
       content: "";
@@ -80,8 +88,8 @@
       width: 48px;
       height: 48px;
       transform: translateY(-50%);
-      z-index: 6;
-      opacity: 0.8;
+      z-index: 102;
+      opacity: 0.6;
       border-radius: 50%;
       background-color: $color-brand-secondary;
       @include transition-fast;
