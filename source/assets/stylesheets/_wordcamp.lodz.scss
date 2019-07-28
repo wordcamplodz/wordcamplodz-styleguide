@@ -284,3 +284,13 @@
         background: $color-brand-primary !important;
     }
 }
+
+.widget-area {
+    .sponsor-level {
+        &.pakiet-fabrykant,
+        &.patroni-medialni {
+            display: none;
+        }
+    }
+}
+
