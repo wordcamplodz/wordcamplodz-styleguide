@@ -65,7 +65,7 @@
     margin-bottom: $unit-default;
     height: auto; // Override
     min-height: rem(48); // Image size
-    padding-left: rem(65);
+    padding-left: rem(85);
     padding-right: rem(10);
     padding-top: rem(20);
     padding-bottom: rem(20);
@@ -84,7 +84,7 @@
       content: "";
       position: absolute;
       top: 50%;
-      left: 0;
+      left: 20px;
       width: 48px;
       height: 48px;
       transform: translateY(-50%);
@@ -96,9 +96,9 @@
     }
 
     &:after {
-      width: calc(100% + 20px);
+      width: 95%;
       content: "";
-      height: 140%;
+      height: 100%;
       background-color: $color-brand-white;
       box-shadow: 0 5px 20px 0 rgba($color-brand-primary, 0.07);
       position: absolute;
@@ -130,7 +130,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 0;
+    left: 20px;
     z-index: 100;
 
     margin: 0;
