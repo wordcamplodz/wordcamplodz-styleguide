@@ -297,3 +297,15 @@
 .navigation {
     margin-bottom: 40px !important;
 }
+
+.wp-block-image {
+    &.alignfull,
+    &.alignwide {
+        @include breakpoint(large) {
+
+            max-width: 1000px;
+            transform: translateX(-100px);
+    
+        }
+    }
+}
