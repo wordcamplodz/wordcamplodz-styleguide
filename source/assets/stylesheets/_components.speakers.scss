@@ -23,6 +23,10 @@
 
     @include clearfix();
 
+    .avatar {
+      display: none;
+    }
+
   }
 
 
@@ -37,7 +41,7 @@
 
     margin-bottom: $unit-xs;
 
-    font-size: ms(0, 16px);
+    font-size: ms(0, 20px);
 
     &:last-child {
 
