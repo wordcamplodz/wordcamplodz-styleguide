@@ -345,8 +345,10 @@
 }
 
 .wcorg-sponsor-level-honorowy-patronat-prezydent-miasta-lodzi,
-.honorowy-patronat-prezydent-miasta-lodzi {
+.sponsor-level.honorowy-patronat-prezydent-miasta-lodzi .sponsor-logo {
     img {
         max-height: 200px!important;
+        height: 200px!important;
+        width: 100%;
     }
 }
