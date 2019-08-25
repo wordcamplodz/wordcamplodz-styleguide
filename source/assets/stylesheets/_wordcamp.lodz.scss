@@ -318,3 +318,19 @@
 .wp-block-button {
     margin-bottom: 5rem;
 }
+
+.entry-content {
+    .wcorg-sponsors {
+        .wcorg-sponsor {
+            img {
+                display: none;
+            }
+
+            .wp-block-image {
+                img {
+                    display: block!important;
+                }
+            }
+        }
+    }
+}
