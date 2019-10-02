@@ -288,7 +288,8 @@
 .widget-area {
     .sponsor-level {
         &.pakiet-fabrykant,
-        &.patroni-medialni {
+        &.patroni-medialni,
+        &.pakiet-grohman {
             display: none;
         }
     }
