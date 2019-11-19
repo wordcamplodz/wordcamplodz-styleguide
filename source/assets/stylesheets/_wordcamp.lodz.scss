@@ -369,6 +369,6 @@
     width: auto!important;
 }
 
-.blocks-gallery-item__caption {
+.blocks-gallery-grid .blocks-gallery-image figcaption, .blocks-gallery-grid .blocks-gallery-item figcaption, .wp-block-gallery .blocks-gallery-image figcaption, .wp-block-gallery .blocks-gallery-item figcaption {
     background: #ffffff;
 }
